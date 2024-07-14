@@ -1,13 +1,19 @@
 body{
     background-color: gray;
+    display: flex;
+    flex-direction: row;
 }
 #main{
-    width: 50vw;
+    width: 70vw;
     height: auto;
     background-color: rgb(169, 236, 149);
     margin: auto;
     box-shadow: 2px 2px 188px 10px red;
+    animation-name: bord;
+    animation-duration: 3ms;
+    animation-iteration-count: infinite;
 }
+
 header,footer{
     width: 100%;
     height: 20%;

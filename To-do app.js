@@ -1,5 +1,5 @@
 var add = (event) => {
-    if (event.keyCode === 13) {
+    if (event.keyCode == 13) {
         const main_element = document.createElement("div");
         main_element.className = "main_element";
         main_element.setAttribute("style", "display:flex;justify-content:space-around;background-color:rgb(248, 162, 162);margin:1%;color:rgb(38, 0, 255);")
